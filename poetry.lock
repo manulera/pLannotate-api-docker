@@ -310,7 +310,7 @@ webapp = ["altair (==4.2.2)", "bokeh (>=3.6.1,<4.0.0)", "click (==8.0.4)", "stre
 type = "git"
 url = "https://github.com/manulera/pLannotate"
 reference = "HEAD"
-resolved_reference = "310f344346907514c4c7998940d2da9b8f90488e"
+resolved_reference = "177cb9dab64c7fde2c49121fa0395583210b3426"
 
 [[package]]
 name = "pydantic"
