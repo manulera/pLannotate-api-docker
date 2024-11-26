@@ -14,7 +14,12 @@ Build and run image:
 
 ```
 docker build -t manulera/plannotate-api .
+
+# Run
 docker run -d --name plannotate-api -p 8000:8000 manulera/plannotate-api
+
+# Push to docker hub
+docker push manulera/plannotate-api
 ```
 
 Go to http://localhost:8000 to see the API documentation.
