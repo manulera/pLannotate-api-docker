@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "plannotate-docker-api"
+version = "0.1.0"
+description = "a simple FastAPI in docker to use plannotate"
+authors = ["Manuel Lera-Ramirez <manulera14@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+plannotate = {git = "https://github.com/manulera/pLannotate", extras = ["api"]}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

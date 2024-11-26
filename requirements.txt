@@ -1,0 +1,22 @@
+annotated-types==0.7.0
+anyio==4.6.2.post1
+biopython==1.84
+click==8.1.7
+fastapi==0.115.5
+h11==0.14.0
+idna==3.10
+numpy==2.1.3
+pandas==2.2.3
+plannotate @ git+https://github.com/manulera/pLannotate@310f344346907514c4c7998940d2da9b8f90488e
+pydantic==2.10.2
+pydantic_core==2.27.1
+python-dateutil==2.9.0.post0
+python-multipart==0.0.17
+pytz==2024.2
+PyYAML==6.0.2
+six==1.16.0
+sniffio==1.3.1
+starlette==0.41.3
+typing_extensions==4.12.2
+tzdata==2024.2
+uvicorn==0.32.1
