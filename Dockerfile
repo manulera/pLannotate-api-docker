@@ -5,6 +5,7 @@ RUN apt-get update && apt-get install -y git curl ncbi-blast+ infernal ripgrep
 RUN curl -L https://github.com/bbuchfink/diamond/releases/download/v2.1.10/diamond-linux64.tar.gz -o diamond.tar.gz
 RUN tar -xzf diamond.tar.gz
 RUN mv diamond /usr/local/bin/diamond
+RUN rm diamond.tar.gz
 
 # Test that it works
 RUN diamond --help

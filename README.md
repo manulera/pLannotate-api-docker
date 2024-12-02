@@ -12,8 +12,8 @@ pip freeze > requirements.txt
 
 Build and run image:
 
-```
-docker build -t manulera/plannotate-api .
+```bash
+docker build --platform linux/amd64 -t manulera/plannotate-api .
 
 # Run
 docker run -d --name plannotate-api -p 8000:8000 manulera/plannotate-api
